@@ -30,10 +30,14 @@ h2 {
   display: flex;
   gap: 20px;
 }
-#nextWordBtn {
+#verbTranslation {
+  text-align: center;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: 600;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {
